@@ -1,0 +1,108 @@
+
+body{background-color: black;} 
+
+.happening{color: white; font-size:74px ;font-family: sans-serif; text-align: right; margin-top: -1%; padding: 2px; }
+
+.join{color: white; font-size: 35px; font-family: sans-serif; text-align: right; margin-right: 29.5%; margin-top: -1%;  }
+ 
+.line1{
+    text-align: right;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+
+    
+    
+    
+ }
+button{
+    border-radius: 50px;
+    border-width: 10px;
+    margin-right: 25%;
+    background-color: white;
+    
+    
+}
+
+.imageG{
+    
+    border-style: solid;
+    margin: 10px;
+    margin-right: 20%;
+    width: 300px;
+    border: none;
+    height: 45px;
+
+
+}
+.imageA{
+    border-style: solid;
+    margin: 10px;
+    margin-right: 20%;
+    width: 300px;
+    border: none;
+    height: 45px;
+    
+}
+
+.imageX{
+    position: relative;
+    height: 100vh;
+}
+
+.imageXpos{
+    position: absolute;
+    left: 0;
+    top: 115%;
+    transform: translateX(15%);
+}
+
+.seperator{
+    display: flex;
+    align-items: center; 
+    margin-right: 20%;
+}
+
+.line{
+    flex-grow: 1;
+    border-top: 1px solid white;
+}
+
+.other1{
+    padding: 10%;
+    color: white; 
+    margin-right: 165px;
+    text-align: right;
+    
+}
+
+
+
+.create{
+    border-style: solid;
+    margin: 10px; color: black;
+    margin-right: 20%;
+    width: 300px;
+    height: 45px;
+    background-color: rgb(0, 153, 248);
+    border: none;
+    font-size: 15px;
+}
+
+.text1{
+    color: lightslategray;
+    text-align: right;
+     padding: 5%;
+     margin-right: 20%;
+     margin-top: -9%;
+     
+}
+
+.text2{
+    color: white;
+    text-align: right;
+     padding: 5%;
+     margin-right: 20%;
+     margin-top: -11%;
+}
