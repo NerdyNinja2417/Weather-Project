@@ -16,7 +16,7 @@ fetch("https://randomuser.me/api/?results=20")
 //and from what i gathered on appendchild. appendChild takes the parameters which is the parent element you and the child element and it attaches the child element to the parent element but only if it is already a part of the html DOM otherwise it its added to the end of the list of children of the parent element
 // so using appendChild its adding the phone address name and picture elements to the card element created in the html to create and construct the layout of the  contact card for the html?
 //and then it uses the container.appendChild(card) to add the parent element card with each child element we added to the the div to further construct the contact card layout for the html
-.then((data) => {
+ .then((data) => {
     const users = data.results;
     const container = document.getElementById("container");
 
